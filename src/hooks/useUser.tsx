@@ -1,6 +1,7 @@
 export const useUser: RequestState<User> = () => {
     const [user, setUser] = useState<User | null>(null);
-    const [status, setStatus] = useState()
+    const [status, setStatus] = useState();
+    
     useEffect(() => {
         setStatus('loading');
 
