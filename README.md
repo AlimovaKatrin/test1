@@ -20,7 +20,7 @@ npm run dev
 
 ## StackBlitz
 
-Import this GitHub repository into StackBlitz, make sure the active branch is `main`, wait for `npm ci`, and run `npm run dev -- --host 0.0.0.0`. If the preview was already open, reload it after the MSW worker is ready.
+Import this GitHub repository into StackBlitz, make sure the active branch is `main`, wait for `npm ci`, and run `npm run dev -- --host 0.0.0.0`. The preview automatically uses MSW's in-page request interception because StackBlitz WebContainers cannot register an application service worker. After changing branches or dependencies, restart the dev server and hard-reload the preview if Vite reports a stale module or a JavaScript MIME-type error.
 
 ## Candidate rules
 
