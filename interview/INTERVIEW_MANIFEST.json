@@ -11,8 +11,5 @@
   "targetScore": 9,
   "stages": 4,
   "theoryQuestionCount": 22,
-  "endpoints": [
-    "GET /api/user",
-    "GET /api/transactions"
-  ]
+  "endpoints": ["GET /api/user", "GET /api/transactions"]
 }

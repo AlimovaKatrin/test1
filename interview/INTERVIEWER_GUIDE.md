@@ -6,16 +6,16 @@ Run a 60-minute English frontend interview and produce the debrief in Russian. N
 
 ## Timeline
 
-| Time | Activity |
-| ---: | --- |
-| 0–5 | Introduction and project inspection |
-| 5–8 | Clarify Stage 1 |
-| 8–20 | Smallest working happy path |
-| 20–32 | Types and request states |
+|  Time | Activity                              |
+| ----: | ------------------------------------- |
+|   0–5 | Introduction and project inspection   |
+|   5–8 | Clarify Stage 1                       |
+|  8–20 | Smallest working happy path           |
+| 20–32 | Types and request states              |
 | 32–45 | Additional requirement and edge cases |
-| 45–52 | One meaningful behavioural test |
-| 52–58 | Theory |
-| 58–60 | Candidate summary |
+| 45–52 | One meaningful behavioural test       |
+| 52–58 | Theory                                |
+| 58–60 | Candidate summary                     |
 
 ## Priority order
 
