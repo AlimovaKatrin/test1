@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "repository": "test1",
+  "title": "Current User and Transactions",
+  "durationMinutes": 60,
+  "language": {
+    "interview": "English",
+    "debrief": "Russian"
+  },
+  "primaryScoreMax": 12,
+  "targetScore": 9,
+  "stages": 4,
+  "theoryQuestionCount": 22,
+  "endpoints": [
+    "GET /api/user",
+    "GET /api/transactions"
+  ]
+}
