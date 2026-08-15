@@ -20,7 +20,9 @@ npm run dev
 
 ## StackBlitz
 
-Import this GitHub repository into StackBlitz, make sure the active branch is `main`, wait for `npm ci`, and run `npm run dev -- --host 0.0.0.0`. The preview automatically uses MSW's in-page request interception because StackBlitz WebContainers cannot register an application service worker. After changing branches or dependencies, restart the dev server and hard-reload the preview if Vite reports a stale module or a JavaScript MIME-type error.
+For working TypeScript auto-imports, open [test1 in the StackBlitz Classic Editor](https://stackblitz.com/github/AlimovaKatrin/test1?file=src/App.tsx), make sure the active branch is `main`, wait for `npm ci`, and run `npm run dev -- --host 0.0.0.0`.
+
+Do not use the Codeflow URL (`stackblitz.com/~/github.com/...`) while [StackBlitz issue #2072](https://github.com/stackblitz/webcontainer-core/issues/2072) is open. Codeflow currently starts TypeScript in Partial Mode, where VS Code disables project-wide IntelliSense and auto-imports. The preview automatically uses MSW's in-page request interception because StackBlitz WebContainers cannot register an application service worker. After changing branches or dependencies, restart the dev server and hard-reload the preview if Vite reports a stale module or a JavaScript MIME-type error.
 
 ## Candidate rules
 
