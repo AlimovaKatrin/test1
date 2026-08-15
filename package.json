@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "typecheck": "tsc -b --pretty false",
+    "build": "tsc -b tsconfig.json tsconfig.node.json && vite build",
+    "typecheck": "tsc -b --pretty false tsconfig.json tsconfig.node.json",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
