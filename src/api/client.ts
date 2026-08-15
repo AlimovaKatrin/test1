@@ -10,7 +10,8 @@ export function apiFetch(path: string, init: RequestInit = {}): Promise<Response
 
 export async function checkedResponse(path: string, init: RequestInit = {}): Promise<Response> {
   const response = await apiFetch(path, init);
-  if (!response.ok) throw new HttpError(response.status, `Request failed with status ${response.status}`);
+  if (!response.ok)
+    throw new HttpError(response.status, `Request failed with status ${response.status}`);
   return response;
 }
 

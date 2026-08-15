@@ -10,4 +10,8 @@ async function enableMocking() {
 }
 
 await enableMocking();
-createRoot(document.getElementById('root')!).render(<StrictMode><App /></StrictMode>);
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+);
