@@ -13,8 +13,10 @@ npm ci
 npm run dev
 ```
 
-Tests: `npm run test:run`  
-Full validation: `npm run check`
+- Tests: `npm run test:run`
+- Full validation: `npm run check`
+- Auto-format: `npm run format`
+- Formatting check: `npm run format:check`
 
 ## StackBlitz
 
